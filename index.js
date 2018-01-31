@@ -14,7 +14,7 @@ redisClient.on('connect',()=>{
 });
 
 redisClient.on('error',function(error){
-  console.log(error);
+  console.log("Error -> " + error);
 });
 
 // View Engine
